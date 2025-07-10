@@ -1,0 +1,90 @@
+
+.body {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#hero-section{
+    background: url(Assets/Hero-bg.png);
+    /* width: 1440px; */
+    height: 698px;
+    margin-bottom: 116px;
+}
+
+/* navbar styles */
+
+.navbar{
+    width: 1140px;
+    height: 151px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar h2{
+    font-weight: bold;
+    font-size: 34px;
+    color: #4E47FF;
+}
+
+.nav-btn{
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    width: 132px;
+    height: 48px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.nav-btn a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+/* banner styles */
+
+.banner{
+    width: 905px;
+    height: 237px;
+    margin: 150px auto;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-text{
+    color: #252432;
+    font-weight: bold;
+    font-size: 65px;
+}
+
+.banner-btn{
+      background-color: #4E47FF;
+    color: #FFFFFF;
+    width: 174px;
+    height: 48px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 37px;
+}
+
+.banner-btn a{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+}
+
