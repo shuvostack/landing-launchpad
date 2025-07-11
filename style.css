@@ -279,6 +279,7 @@ main{
     margin: 0px auto;
     align-items: center;
     text-align: center;
+    margin-bottom: 72.23px;
 }
 
 .focus-content{
@@ -324,4 +325,71 @@ main{
     width: 840px;
     height: 364.77px;
     border-radius: 48px;
+}
+
+/* get in touch section */
+
+#get-in-touch{
+    /* background-color: #F5F8FF; */
+    width: 1140px;
+    height: 632px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 34px;
+}
+
+.touch-text{
+    width: 528px;
+    height: 232px;
+}
+
+.touch-text h1{
+    font-weight: bold;
+    font-size: 97px;
+}
+
+.touch-form{
+    display: flex;
+    flex-direction: column;
+    width: 497px;
+    height: 490px;
+    gap: 10px;
+}
+
+.touch-form label{
+    font-weight: 500px;
+    font-size: 18px;
+}
+
+.touch-form input,textarea{
+    width: 497px;
+    height: 70px;
+    border: none;
+    border-radius: 10px;
+    background-color: #F5F8FF;
+}
+
+.touch-form textarea{
+    width: 497px;
+    height: 135px;
+}
+
+::placeholder{
+    /* width: 194px;
+    height: 30px; */
+    padding-left: 32px;
+    font-size: 20px;
+}
+
+.touch-btn{
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    width: 497px;
+    height: 62px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
 }
