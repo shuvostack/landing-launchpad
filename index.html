@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing launchpad</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="raleway-normal">
     <header id="hero-section">
         <!-- navbar section -->
         <nav class="navbar">
             <h2>
                 ShuvoStack
             </h2>
-            <button class="nav-btn">
+            <button class="nav-btn btn-hover">
                 <a href="#">Sign Up</a>
             </button>
         </nav>
@@ -25,7 +28,7 @@
             <h1 class="banner-text">
                 Cool Dark UI Template for ShuvoStack Agencies!
             </h1>
-            <button class="banner-btn">
+            <button class="banner-btn btn-hover">
                 <a href="#">Stay Focused</a>
             </button>
         </div>
@@ -40,7 +43,7 @@
                 <p class="action-sub-title">
                     Explore the live preview and imagine your brand in this bold new look.
                 </p>
-                <button class="action-btn">
+                <button class="action-btn btn-hover">
                     Launch Live Preview
                 </button>
             </div>
@@ -60,7 +63,7 @@
                 </div>
 
                 <div class="productive-data">
-                    <div class="data-1">
+                    <div class="data-1 inter-normal-2">
                         <h1 class="data-title">
                             50K
                         </h1>
@@ -69,7 +72,7 @@
                         </p>
                     </div>
 
-                    <div class="data-2">
+                    <div class="data-2 inter-normal-2">
                         <h1 class="data-title">
                             2M+
                         </h1>
@@ -78,7 +81,7 @@
                         </p>
                     </div>
 
-                    <div class="data-3">
+                    <div class="data-3 inter-normal-2">
                         <h1 class="data-title">
                             95%
                         </h1>
@@ -97,7 +100,7 @@
             </h1>
 
             <!-- card -->
-            <div class="card-container">
+            <div class="card-container inter-normal-2">
                 <div class="card">
                     <img class="star-icon" src="Assets/icon-star.png" alt="">
                     <img class="star-icon" src="Assets/icon-star.png" alt="">
@@ -176,7 +179,7 @@
                 <p>
                     This template instantly leveled up our presence.” – Studio Vertex
                 </p>
-                <button>
+                <button class="btn-hover">
                     Get Started Free
                 </button>
                 <img src="Assets/wc-big.png" alt="">
@@ -192,22 +195,52 @@
 
                 <form class="touch-form" action="">
                     <label for="email">Email</label>
-                    <input type="email" id="email" placeholder="example@gmail.com" required>
+                    <input class="inter-normal-2 " type="email" id="email" placeholder="example@gmail.com" required>
 
                     <label for="name">Name</label>
-                    <input type="text" id="name" placeholder="full name" required>
+                    <input class="inter-normal-2 " type="text" id="name" placeholder="full name" required>
 
                     <label for="message">Message</label>
-                    <textarea id="message" placeholder="write your message..." cols="40"></textarea>
+                    <textarea class="inter-normal-2 " id="message" placeholder="write your message..." cols="40"></textarea>
 
-                    <button class="touch-btn">
+                    <button class="touch-btn btn-hover">
                         Get in Touch
                     </button>
                 </form>
          </section>
     </main>
-    <footer>
+    <footer id="footer-section">
+        <section class="footer-content">
+            <h1 class="footer-title">
+                ShuvoStack
+            </h1>
+            <p class="footer-sub-title">
+                Ready to elevate your online presence? Contact us today to discuss your project and discover how we can bring your vision to life.
+            </p>
 
+            <div class="footer-list-section">
+                <ul class="footer-list">
+                    <li>
+                        <a href="">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            How it Works
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">Services</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </footer>
 </body>
 </html>
